@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2221e94a-669a-4522-814a-4daef7b13f26" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthAdmin/ConfirmPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthAdmin/ForgotPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthAdmin/LoginController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthAdmin/RegisterController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthAdmin/ResetPasswordController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthAdmin/VerificationController.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/FruitMan.iml" afterPath="$PROJECT_DIR$/.idea/FruitMan.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-      <change beforePath="$PROJECT_DIR$/app/FruitCollectors.php" afterPath="$PROJECT_DIR$/app/FruitCollectors.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FruitCollectorsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FruitCollectorsController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SellerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SellerController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="$PROJECT_DIR$/app/Seller.php" afterPath="$PROJECT_DIR$/app/Seller.php" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/fruitCollectors.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/fruitCollectors.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/seller.blade.php" afterPath="$PROJECT_DIR$/resources/views/pages/seller.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/templates/Partials/_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/templates/Partials/_sidebar.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/templates/Partials/_titleUnderTopBarHeader.blade.php" afterPath="$PROJECT_DIR$/resources/views/templates/Partials/_titleUnderTopBarHeader.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/templates/default.blade.php" afterPath="$PROJECT_DIR$/resources/views/templates/default.blade.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +29,8 @@
       <file leaf-file-name="loginTemplate.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/loginTemplate.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <marker date="1585315137888" expanded="true" signature="553:618" ph="..." />
                 <marker date="1585315137888" expanded="true" signature="781:857" ph="..." />
@@ -255,7 +228,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="675" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -419,15 +392,15 @@
       <workItem from="1585191021327" duration="16835000" />
       <workItem from="1585309989644" duration="11085000" />
       <workItem from="1585492407605" duration="585000" />
-      <workItem from="1585723286177" duration="67000" />
+      <workItem from="1585723286177" duration="677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83139000" />
+    <option name="totallyTimeSpent" value="83749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -439,7 +412,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08038585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -649,6 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="764" column="13" lean-forward="false" selection-start-line="764" selection-start-column="13" selection-end-line="764" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/loginTemplate.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <marker date="1585315137888" expanded="true" signature="553:618" ph="..." />
             <marker date="1585315137888" expanded="true" signature="781:857" ph="..." />
