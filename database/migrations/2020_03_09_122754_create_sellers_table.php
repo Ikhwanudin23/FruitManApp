@@ -19,8 +19,9 @@ class CreateSellersTable extends Migration
             $table->string('email','50')->unique();
             $table->text('password');
             $table->text('address')->nullable();
-            $table->text('image')->nullable();
-            $table->enum('status',['1','0']);
+            $table->string('image')->default('uploads/avatar/user.png');
+            $table->boolean('status')->default(true);
+            $table->string('api_token');
             $table->timestamps();
         });
     }

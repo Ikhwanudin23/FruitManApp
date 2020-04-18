@@ -15,4 +15,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('fruitCollectors', 'Api\FruitCollectorsController@index');
+
 Route::get('seller','Api\SellerController@index');
+
+//produk dari seller
+Route::get('postings','Api\Seller\PostingsController@index');
+Route::post('postings','Api\Seller\PostingsController@store');
+
+//seller
+Route::post('seller/register', 'Api\Seller\AuthSellerController@register');
+Route::post('seller/login', 'Api\Seller\AuthSellerController@login');
+
+//fruitcollector
+Route::post('fruitCollector/register', 'Api\FruitCollector\AuthFruitCollectorController@register');
+Route::post('fruitCollector/login', 'Api\FruitCollector\AuthFruitCollectorController@login');

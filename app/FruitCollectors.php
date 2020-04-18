@@ -17,9 +17,7 @@ class FruitCollectors extends Authenticatable
      */
     protected $guard = 'fruitCollectors';
     protected $table = 'fruit_collectors';
-    protected $fillable = [
-        'name', 'email', 'password', 'address', 'image',
-    ];
+    protected $guarded = [];
 
     /**
      * The attributes that should be hidden for arrays.

@@ -22,7 +22,7 @@
                             <div class="d-flex flex-row" >
                                 <div class="round round-lg align-self-center round-info"><i class="mdi mdi-account-card-details"></i></div>
                                 <div class="m-l-10 align-self-center">
-                                    <h3 class="m-b-0 font-light">$3249</h3>
+                                    <h3 class="m-b-0 font-light">{{$fruitCollectors}}</h3>
                                     <h5 class="text-muted m-b-0">Total Pengepul</h5></div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="d-flex flex-row">
                                 <div class="round round-lg align-self-center round-warning"><i class="mdi mdi-account-card-details"></i></div>
                                 <div class="m-l-10 align-self-center">
-                                    <h3 class="m-b-0 font-lgiht">$2376</h3>
+                                    <h3 class="m-b-0 font-lgiht">{{$sellers}}</h3>
                                     <h5 class="text-muted m-b-0">Total Penjual</h5></div>
                             </div>
                         </div>

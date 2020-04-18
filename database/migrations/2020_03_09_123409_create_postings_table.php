@@ -17,11 +17,10 @@ class CreatePostingsTable extends Migration
             $table->increments('id');
             $table->integer('id_seller')->unsigned();
             $table->string('fruit_name','50');
-            $table->text('address');
-            $table->text('longitude')->nullable();
-            $table->text('latitude')->nullable();
+            $table->text('description');
+            $table->text('image')->nullable();
             $table->integer('price');
-            $table->enum('status',['1','0']);
+            $table->boolean('status')->default(true);
             $table->timestamps();
 
             $table->foreign('id_seller')->references('id')->on('sellers')->onDelete('CASCADE');

@@ -17,9 +17,7 @@ class Seller extends Authenticatable
      */
     protected $guard = 'seller';
     protected $table = 'sellers';
-    protected $fillable = [
-        'name', 'email', 'password', 'address', 'image',
-    ];
+    protected $guarded = [];
 
     /**
      * The attributes that should be hidden for arrays.
