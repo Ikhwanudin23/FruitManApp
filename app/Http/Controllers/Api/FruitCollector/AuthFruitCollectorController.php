@@ -9,7 +9,24 @@ use Auth;
 
 class AuthFruitCollectorController extends Controller
 {
+    public function __construct(){
+        $this->middleware('guest:api-fruitCollectors');
+    }
+
     public function register(Request $request){
+    $rule = [
+      'name' => 'required|min:3|max:100',
+      'email' => 'required|email|unique:fruit_collectors'  
+    ];
+
+    $message = [
+      'required' => 'tidak boleh kosong',
+      'email.unique' => 'email sudah terdaftar',
+      'name.min' => 'nama terlalu pendek'
+    ];
+
+    $this->validate($request, $rule, $message);
+    
         $fruitCollector = FruitCollectors::create([
             'name' => $request->name,
             'email' => $request->email,
@@ -42,7 +59,7 @@ class AuthFruitCollectorController extends Controller
         return response()->json([
             'message' => 'login gagal',
             'status' => false,
-            'data' => (object)[]
+            'data' => (object) []
         ]);
     }
 }

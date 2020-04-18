@@ -10,6 +10,19 @@ use Illuminate\Http\Request;
 class AuthSellerController extends Controller
 {
     public function register(Request $request){
+    $rule = [
+      'name' => 'required|min:3|max:100',
+      'email' => 'required|email|unique:sellers'  
+    ];
+
+    $message = [
+      'required' => 'tidak boleh kosong',
+      'email.unique' => 'email sudah terdaftar',
+      'name.min' => 'nama terlalu pendek'
+    ];
+
+    $this->validate($request, $rule, $message);
+
         $seller = Seller::create([
             'name' => $request->name,
             'email' => $request->email,
